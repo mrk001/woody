@@ -17,5 +17,6 @@ int main(int argc, const char * argv[]) {
     
     VectorExamples();
     
+    std::cout << "Done ..." <<  std::endl;
     return 0;
 }

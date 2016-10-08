@@ -44,6 +44,12 @@ void VectorAppendData()
     
     intVector.push_back(121);
     
+//    int moreData[] = {12, 13, 14, 15};
+//    
+//    cout << "\nAdding data to the vector using std::transform and lambda ...";
+//    std::transform(moreData, moreData + sizeof(moreData)/sizeof(int), intVector.end(),
+//                   [](int p_Val){ return p_Val * p_Val; });
+
     cout << "\nPrinting vector contents using for_each and lambda ..." << endl;
     for_each(intVector.begin(), intVector.end(), [](int p_Val) { cout << p_Val << "  "; });
 
